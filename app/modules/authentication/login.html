@@ -1,0 +1,13 @@
+<h1>Welcome To Login Page</h1>
+<div >
+    <label>Login</label>
+    <input type="text" [(ngModel)]= "user.login" name="login"/>
+</div>
+<div>
+    <label>Password</label>
+    <input type="password" [(ngModel)]="user.password" name="password"/>
+</div>
+<div>
+    <button (click)="login(user)">Login</button>
+    <button (click)="clear()">Clear</button>
+</div>
